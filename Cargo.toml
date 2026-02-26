@@ -1,0 +1,16 @@
+[package]
+name = "rust-dsa"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "A generic data structures and algorithms library implemented in Rust."
+repository = "https://github.com/yourusername/data_structures_algorithms"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "sorting_bench"
+harness = false
