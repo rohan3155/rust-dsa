@@ -10,7 +10,3 @@ repository = "https://github.com/yourusername/data_structures_algorithms"
 
 [dev-dependencies]
 criterion = "0.5"
-
-[[bench]]
-name = "sorting_bench"
-harness = false
